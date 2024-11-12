@@ -7,7 +7,7 @@ I have experience in GIS, low-code platforms, and technology communities. I also
 ## Skills
 - Full stack enterprise GIS systems
 - Map application solution development
-- Geospatial project and program management
+- Geospatial and IT project and program management
 
 ## Contact
 You can reach me at [LinkedIn](https://www.linkedin.com/in/erik-lash/) or [GitHub](https://github.com/app-EL)
