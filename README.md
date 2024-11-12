@@ -1,8 +1,8 @@
 # Erik Lash MA, RPA, GISP
-Hello. I'm Erik, GIS professional based in Hilo, Hawaii.
+Hello. I'm Erik, a GIS professional based in Hilo, Hawaii.
 
 ## About Me
-I have experience in GIS, low-code platforms, and technology communities. I also background in archaeology, geology, and ecology. 
+I have experience in GIS, low-code platforms, and technology communities. I also have a background in archaeology, geology, and ecology that I bring to the table in marine and terrestrial enviornmental contexts. 
 
 ## Skills
 - Full stack enterprise GIS systems
