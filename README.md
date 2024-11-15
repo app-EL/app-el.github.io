@@ -2,7 +2,7 @@
 Hello. I'm Erik, a GIS professional based in Hilo, Hawaii.
 
 ## About Me
-I have experience in GIS, low-code platforms, and technology communities. I also have a background in archaeology, geology, and ecology that I bring to the table on marine and terrestrial enviornmental projects. 
+Experienced in GIS, low-code platforms, and technology communities. Background in nexus regulation geospatial, cultural, and ecological research. 
 
 ## Skills
 - Full stack enterprise GIS systems
