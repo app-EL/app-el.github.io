@@ -5,7 +5,7 @@ Hello. I'm Erik, a GIS professional based in Hilo, Hawaii.
 Experienced in GIS, code/low-code platforms, and technology communities. Background in geographical, cultural, and ecological research projects and nexus regulatory frameworks.
 
 ## Skills
-* Geospatial and IT project and program management
+* IT and Geospatial program and project management
   
 * Full stack enterprise GIS architecture and cloud infrastructure
   * Nutanix Hybrid Cloud
