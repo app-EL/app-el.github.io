@@ -11,7 +11,7 @@ Experienced in GIS, code/low-code platforms, and technology communities. Backgro
   * Nutanix Hybrid Cloud
   * VMWare
   * ESRI ArcGIS Enterprise Infrastructure as Code (IaC) and PowerShell Desired State Configuration (DSC) deployments
-  * Database servers and data models
+  * Database servers
   * Web servers and Web Application Firewalls
   * GIS network and web application performance analyses
 * GIS application solution and code development
