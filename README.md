@@ -18,7 +18,8 @@ Experienced in GIS, code/low-code platforms, and technology communities. Backgro
   * GIS web applications and code tools
   * GIS data model and database design
   * Terrestrial, Marine, and Water GIS
-  * Cultural and Natural Resources studies
+* Cultural and Natural Resources studies
+  * Nexus enviornmental regulation frameworks including NEPA, CERCLA, CWA, CZM, ESA, Section 106, and Justice 40
   
 ## Education							       		
 * M.A. | Anthropology, GIS | NCSU (_Aug 2013_)
@@ -40,7 +41,7 @@ Experienced in GIS, code/low-code platforms, and technology communities. Backgro
 * **Senior Archaeologist @ Scientific Consulting Services (SCS)** (_Apr 2015 - Dec 2015_)
   * Project management, GIS and cartography, field investigations, technical report writing
 * **GIS Specialist/Planner @ Division of Coastal Resource Management (DCRM) and Staff Archaeologist @ Historic Preservation Office (HPO) in Commonwealth of the Northern Mariana Islands (CNMI)** (_Aug 2013 - Mar 2015_)
-  * GIS Planning, Marine GIS, CZM, NEPA, and cultural resources regulatory consultation, field investigations, technical report writing, permit reviews
+  * GIS Planning, Marine GIS, CZM, NEPA, and Section 106 regulatory consultation, field investigations, technical report writing, permit reviews
 
 ## Notable Active CI/CD Geospatial Projects
 * **Hawaii County Permit GIS**, code application an automation built in PowerShell, Python, and TSQL to perform weekly data conversion and GIS publication for Hawaii counties Citizen Self Service permit application portal, Back Office permit review portal, and mobile inspection application.
