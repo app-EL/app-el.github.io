@@ -30,11 +30,17 @@ Experienced in GIS, code/low-code platforms, and technology communities. Backgro
 
 ## Recent Professional Experience
 * GIS Manager @ Hawaii County (_Nov 2019 - Present_)
+  * Enterprise GIS, Web Applications, User Support, Program Management
 * GIS Analyst @ Hawaii County (_May 2018 - Nov 2019_)
-* GIS Specialist @ The Research Corporation of the Univisersity of Hawai'i (_Sep 2017 - May 2018_)
+  * GIS and database applications
+* GIS Specialist @ The Research Corporation of the University of Hawai'i (_Sep 2017 - May 2018_)
+  * Geospatial program support
 * Principal Investigator @ Southeastern Archaeological Research, Inc. (SEARCH) (_Jan 2016 - Sep 2017_)
+  * Project management, regional office management, GIS and cartography, field investigations, report writing, business development
 * Senior Archaeologist @ Scientific Consulting Services (SCS) (_Apr 2015 - Dec 2015_)
+  * Project management, GIS and cartography, field investigations, report writing
 * GIS Specialist/Planner @ Division of Coastal Resource Management and Staff Archaeologist @ Historic Preservation Office in Commonwealth of the Northern Mariana Islands (CNMI) (_Aug 2013 - Mar 2015_)
+  * GIS Planning, Marine GIS, regulatory consultation lead, document editing, and permit review
 
 ## Notable Active CI/CD Geospatial Projects
 * **Hawaii County Permit GIS**, code application an automation built in PowerShell, Python, and TSQL to perform weekly data conversion and GIS publication for Hawaii counties citizen self service permit application and back office permit review portals.
