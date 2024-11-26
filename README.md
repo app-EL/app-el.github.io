@@ -31,17 +31,19 @@ Experienced in GIS, code/low-code platforms, and technology communities. Backgro
 
 ## Recent Professional Experience
 * **IT GIS Manager @ Hawaii County** (_Nov 2019 - Present_)
-  * Enterprise GIS administration and infrastructure, GIS and database applications, user support, project management, program management
+  * Enterprise GIS infrastructure and administration, GIS and code applications, database schema and data models, user support, project management, program management.
 * **GIS Analyst @ Hawaii County** (_May 2018 - Nov 2019_)
-  * GIS and database applications
+  * Web GIS and database applications, ArcGIS Enterprise support.
 * **GIS Specialist @ The Research Corporation of the University of Hawai'i** (_Sep 2017 - May 2018_)
-  * Geospatial program support
+  * USAG-HI Schofield Barracks DPW Environmental/Cultural geospatial program support.
 * **Principal Investigator @ Southeastern Archaeological Research, Inc. (SEARCH)** (_Jan 2016 - Sep 2017_)
-  * Regional office management, business development, project management, GIS and cartography, field investigations, technical report writing
+  * Regional office management, business development, project management, GIS and cartography, field investigations, technical report writing.
 * **Senior Archaeologist @ Scientific Consulting Services (SCS)** (_Apr 2015 - Dec 2015_)
-  * Project management, GIS and cartography, field investigations, technical report writing
-* **GIS Specialist/Planner @ Division of Coastal Resource Management (DCRM) and Staff Archaeologist @ Historic Preservation Office (HPO) in Commonwealth of the Northern Mariana Islands (CNMI)** (_Aug 2013 - Mar 2015_)
-  * GIS Planning, Marine GIS, CZM, NEPA, and Section 106 regulatory consultation, field investigations, technical report writing, permit reviews
+  * Project management, GIS and cartography, field investigations, technical report writing.
+* **Staff Archaeologist @ Historic Preservation Office (HPO) in the Commonwealth of the Northern Mariana Islands (CNMI)** (_Sep 2014 - Mar 2015_)
+  * Implementation of Historic Preservation Fund Grant projects and programs. Section 106, NEPA, and local regulatory review and consultation. Compliance and documentation review. Preparation of scopes of work for archaeological survey, testing, and mitigation projects. Editing of articles in preparation for submission to professional journals.
+* **GIS Specialist/Planner @ Division of Coastal Resource Management (DCRM) in the Commonwealth of the Northern Mariana Islands (CNMI)** (_Aug 2013 - Sep 2014_)
+  * Implementation of Coastal Zone Management Act (CZM) projects and programs. NEPA, Section 106, and Federal Consistency review. Coastal and climate change research. Environmental and ecological sensitivity analyses including marine and terrestrial coastal habitat, coral reef, and fish health. Non-point source pollution analysis. GIS and marine spatial planning. Education, and outreach.
 
 ## Notable Active CI/CD Geospatial Projects
 * **Hawaii County Permit GIS**, code application an automation built in PowerShell, Python, and TSQL to perform weekly data conversion and GIS publication for Hawaii counties Citizen Self Service permit application portal, Back Office permit review portal, and mobile inspection application.
