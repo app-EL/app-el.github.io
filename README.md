@@ -13,7 +13,7 @@ Experienced in GIS, code/low-code platforms, and technology communities. Backgro
   * ESRI ArcGIS Enterprise Infrastructure as Code (IaC) and PowerShell Desired State Configuration (DSC) deployments
   * Database servers and data models
   * Web servers and Web Application Firewalls
-  * GIS Network and Performance Analyses
+  * GIS Network and Web Application Performance Analyses
 * GIS application solution and code development
   * GIS web applications and code tools
   * GIS data model and database design
