@@ -31,9 +31,9 @@ Experienced in GIS, code/low-code platforms, and technology communities. Backgro
 
 ## Recent Professional Experience
 * **IT GIS Manager @ Hawaii County** (_Nov 2019 - Present_)
-  * Enterprise GIS infrastructure and administration, GIS and code applications, database schema and data models, user support, project management, program management.
+  * Enterprise GIS architecture, infrastructure, and administration. GIS and code applications. Database schema and data models. User support. Project management. Program management.
 * **GIS Analyst @ Hawaii County** (_May 2018 - Nov 2019_)
-  * Web GIS and database applications, ArcGIS Enterprise support.
+  * Web GIS and database applications. ArcGIS Enterprise support.
 * **GIS Specialist @ The Research Corporation of the University of Hawai'i** (_Sep 2017 - May 2018_)
   * USAG-HI Schofield Barracks DPW Environmental/Cultural geospatial program support.
 * **Principal Investigator @ Southeastern Archaeological Research, Inc. (SEARCH)** (_Jan 2016 - Sep 2017_)
