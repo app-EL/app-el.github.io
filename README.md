@@ -29,8 +29,8 @@ Experienced in GIS, code/low-code platforms, and technology communities. Backgro
 * Register of Professional Archaeologists - **RPA ID# 34640043**
 
 ## Recent Professional Experience
-* **GIS Manager @ Hawaii County** (_Nov 2019 - Present_)
-  * Enterprise GIS, GIS and database applications, user support, project management, program management
+* **IT GIS Manager @ Hawaii County** (_Nov 2019 - Present_)
+  * Enterprise GIS administration and infrastructure, GIS and database applications, user support, project management, program management
 * **GIS Analyst @ Hawaii County** (_May 2018 - Nov 2019_)
   * GIS and database applications
 * **GIS Specialist @ The Research Corporation of the University of Hawai'i** (_Sep 2017 - May 2018_)
