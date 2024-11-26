@@ -11,7 +11,7 @@ Experienced in GIS, code/low-code platforms, and technology communities. Backgro
   * Nutanix Hybrid Cloud
   * VMWare
   * ESRI ArcGIS Enterprise Infrastructure as Code (IaC) and PowerShell Desired State Configuration (DSC) deployments
-  * Database servers
+  * Database servers and data models
   * Web servers and Web Application Firewalls
   * GIS Network and Performance Analyses
 * GIS application solution and code development
@@ -43,7 +43,7 @@ Experienced in GIS, code/low-code platforms, and technology communities. Backgro
   * GIS Planning, Marine GIS, CZM, NEPA, and cultural resources regulatory consultation, field investigations, technical report writing, permit reviews
 
 ## Notable Active CI/CD Geospatial Projects
-* **Hawaii County Permit GIS**, code application an automation built in PowerShell, Python, and TSQL to perform weekly data conversion and GIS publication for Hawaii counties citizen self service permit application and back office permit review portals.
+* **Hawaii County Permit GIS**, code application an automation built in PowerShell, Python, and TSQL to perform weekly data conversion and GIS publication for Hawaii counties Citizen Self Service permit application portal, Back Office permit review portal, and mobile inspection application.
   * Project operating in production continuously since 2019
 * **Optical Reef and Coastal Area Assessment of Hawaii [(ORCAHH)](https://github.com/app-EL/ORCAAH) Tool**,  fork of the NASA Optical Reef and Coastal Area Assessment (ORCAA) Google Earth Engine tool paramaterized for Hilo Bay Watershed clean water and health analyses.
   * Project brought online during storm events since 2024
