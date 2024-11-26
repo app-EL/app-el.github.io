@@ -7,10 +7,10 @@ Experienced in GIS, code/low-code platforms, and technology communities. Backgro
 ## Skills
 * IT and Geospatial program and project management
   
-* Full stack enterprise GIS architecture and cloud infrastructure
+* Full stack enterprise GIS architecture, administration, and cloud infrastructure
   * Nutanix Hybrid Cloud
   * VMWare
-  * ESRI Enterprise IaC and PowerShell DSC
+  * ESRI ArcGIS Enterprise Infrastructure as Code (IaC) and PowerShell Desired State Configuration (DSC) deployments
   * Database servers
   * Web servers and Web Application Firewalls
   * GIS Network and Performance Analyses
