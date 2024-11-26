@@ -29,17 +29,17 @@ Experienced in GIS, code/low-code platforms, and technology communities. Backgro
 * Register of Professional Archaeologists - **RPA ID# 34640043**
 
 ## Recent Professional Experience
-* GIS Manager @ Hawaii County (_Nov 2019 - Present_)
+* **GIS Manager @ Hawaii County** (_Nov 2019 - Present_)
   * Enterprise GIS, Web Applications, User Support, Program Management
-* GIS Analyst @ Hawaii County (_May 2018 - Nov 2019_)
+* **GIS Analyst @ Hawaii County** (_May 2018 - Nov 2019_)
   * GIS and database applications
-* GIS Specialist @ The Research Corporation of the University of Hawai'i (_Sep 2017 - May 2018_)
+* **GIS Specialist @ The Research Corporation of the University of Hawai'i** (_Sep 2017 - May 2018_)
   * Geospatial program support
-* Principal Investigator @ Southeastern Archaeological Research, Inc. (SEARCH) (_Jan 2016 - Sep 2017_)
+* **Principal Investigator @ Southeastern Archaeological Research, Inc. (SEARCH)** (_Jan 2016 - Sep 2017_)
   * Project management, regional office management, GIS and cartography, field investigations, report writing, business development
-* Senior Archaeologist @ Scientific Consulting Services (SCS) (_Apr 2015 - Dec 2015_)
+* **Senior Archaeologist @ Scientific Consulting Services (SCS)** (_Apr 2015 - Dec 2015_)
   * Project management, GIS and cartography, field investigations, report writing
-* GIS Specialist/Planner @ Division of Coastal Resource Management and Staff Archaeologist @ Historic Preservation Office in Commonwealth of the Northern Mariana Islands (CNMI) (_Aug 2013 - Mar 2015_)
+* **GIS Specialist/Planner @ Division of Coastal Resource Management and Staff Archaeologist @ Historic Preservation Office in Commonwealth of the Northern Mariana Islands (CNMI)** (_Aug 2013 - Mar 2015_)
   * GIS Planning, Marine GIS, regulatory consultation lead, document editing, and permit review
 
 ## Notable Active CI/CD Geospatial Projects
