@@ -31,7 +31,7 @@ Experienced in GIS, code/low-code platforms, and technology communities. Backgro
 
 ## Recent Professional Experience
 * **IT GIS Manager @ Hawaii County** (_Nov 2019 - Present_)
-  * Enterprise GIS architecture, infrastructure, and administration. GIS and code applications. Database schema and data models. User support. Project management. Program management.
+  * Enterprise GIS architecture, infrastructure, administration, governance, and security. GIS, GPS, and code applications. Database schema and data models. User support. Project management. Program management.
 * **GIS Analyst @ Hawaii County** (_May 2018 - Nov 2019_)
   * Web GIS and database applications. ArcGIS Enterprise support.
 * **GIS Specialist @ The Research Corporation of the University of Hawai'i** (_Sep 2017 - May 2018_)
