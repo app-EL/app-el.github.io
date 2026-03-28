@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ── Primary meta ───────────────────────────────────────────────── -->
+  <!-- ✏️ Update description, author, and keywords -->
+  <meta name="description" content="Erik Lash - Portfolio — GIS, code, writing, and design.">
+  <meta name="author" content="Erik Lash">
+  <meta name="keywords" content="GIS, mapping, web development, portfolio">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- ── Open Graph (LinkedIn, Slack, iMessage previews) ────────────── -->
+  <!-- ✏️ Update all og: values. og:image requires a fully qualified URL. -->
+  <meta property="og:type"        content="website">
+  <meta property="og:title"       content="Erik Lash — Portfolio">
+  <meta property="og:description" content="GIS, code, writing, and design.">
+  <meta property="og:url"         content="https://app-el.github.io">
+  <meta property="og:image"       content="https://app-el.github.io/assets/images/og/og-image.jpg">
+  <meta property="og:image:width"  content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- ── Twitter / X card ──────────────────────────────────────────── -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Erik Lash — Portfolio">
+  <meta name="twitter:description" content="GIS, code, writing, and design.">
+  <meta name="twitter:image"       content="https://app-el.github.io/assets/images/og/og-image.jpg">
+
+  <!-- ── Title ─────────────────────────────────────────────────────── -->
+  <!-- ✏️ Replace "Your Name" -->
+  <title>Erik Lash</title>
+
+  <!-- ── Favicon ───────────────────────────────────────────────────── -->
+  <!-- SVG favicon works in all modern browsers -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <!-- Fallback .ico for older browsers — add favicon.ico to the repo root -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- Apple touch icon — add apple-touch-icon.png (180×180) to repo root -->
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <!-- ── Fonts (Google Fonts CDN) ──────────────────────────────────── -->
+  <!-- To self-host instead, see assets/fonts/README.md               -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- ── Stylesheet ────────────────────────────────────────────────── -->
+  <link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+<body>
+<div class="wrap">
+
+  <!-- ══════════════ HEADER ══════════════ -->
+  <header>
+    <div class="header-identity">
+
+      <!--
+        ✏️ SWAP PHOTO: Replace this .avatar div with:
+           <img src="assets/images/profile/your-name.jpg"
+                alt="Your Name"
+                width="52" height="52"
+                style="border-radius:50%;object-fit:cover;flex-shrink:0;">
+           Add your photo to assets/images/profile/ — see assets/images/README.md
+      -->
+      <div class="avatar">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/>
+        </svg>
+      </div>
+
+      <div>
+        <h1>Your Name</h1><!-- ✏️ -->
+        <p class="tagline">GIS · Code · Writing · Design</p><!-- ✏️ -->
+      </div>
+    </div>
+
+    <!-- ✏️ 2–3 sentence bio -->
+    <p class="bio">
+      Brief bio goes here. Describe your background, what you work on,
+      and what you care about. Two or three sentences is plenty.
+    </p>
+
+    <div class="contact-links">
+      <!-- ✏️ Update href values. Add a resume link: -->
+      <!-- <a href="assets/docs/your-name-resume.pdf" target="_blank">Resume</a> -->
+      <!-- <a href="mailto:you@email.com">Email</a>  -->
+      <a href="https://axielsolutions.com">Website</a>
+      <a href="https://github.com/app-el" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/erik-lash" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+
+    <nav aria-label="Portfolio sections">
+      <a href="#maps">Maps &amp; GIS</a>
+      <a href="#code">Code</a>
+      <a href="#writing">Writing</a>
+      <a href="#design">Design</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ══════════════ MAPS / GIS ══════════════ -->
+    <section id="maps" aria-labelledby="label-maps">
+      <h2 id="label-maps">Maps &amp; GIS</h2>
+
+      <!-- ✏️ Edit each row: href, title, description, meta (tools/stack).
+               Duplicate a .project block to add more. Remove one to show fewer.
+               Project thumbnails → assets/images/projects/ (see README there) -->
+
+      <a class="project" href="#" target="_blank" rel="noopener">
+        <div>
+          <p class="project-title">Project Title One</p>
+          <p class="project-desc">A short description of this map project — what it shows, what data it uses, and why it's useful.</p>
+        </div>
+        <p class="project-meta">Leaflet<br>QGIS</p>
+      </a>
+
+      <a class="project" href="#" target="_blank" rel="noopener">
+        <div>
+          <p class="project-title">Project Title Two</p>
+          <p class="project-desc">Description of a second map or spatial analysis project. Mention the geographic area and approach.</p>
+        </div>
+        <p class="project-meta">QGIS<br>PostGIS</p>
+      </a>
+
+      <a class="project" href="#" target="_blank" rel="noopener">
+        <div>
+          <p class="project-title">Project Title Three</p>
+          <p class="project-desc">One or two sentences — enough for a visitor to decide whether to click through.</p>
+        </div>
+        <p class="project-meta">Python<br>GeoPandas</p>
+      </a>
+    </section>
+
+    <!-- ══════════════ CODE ══════════════ -->
+    <section id="code" aria-labelledby="label-code">
+      <h2 id="label-code">Code</h2>
+
+      <a class="project" href="#" target="_blank" rel="noopener">
+        <div>
+          <p class="project-title">Repository or Tool Name</p>
+          <p class="project-desc">What this code does and who it's for. Mention the problem it solves and anything interesting about the implementation.</p>
+        </div>
+        <p class="project-meta">Python<br>CLI</p>
+      </a>
+
+      <a class="project" href="#" target="_blank" rel="noopener">
+        <div>
+          <p class="project-title">Another Repository</p>
+          <p class="project-desc">Description of a second project. Links can point to GitHub repos, live demos, or docs.</p>
+        </div>
+        <p class="project-meta">JavaScript<br>GitHub Pages</p>
+      </a>
+
+      <a class="project" href="#" target="_blank" rel="noopener">
+        <div>
+          <p class="project-title">A Third Code Project</p>
+          <p class="project-desc">A data pipeline, notebook, or utility. Mention the stack and what the output was.</p>
+        </div>
+        <p class="project-meta">Jupyter<br>Pandas</p>
+      </a>
+    </section>
+
+    <!-- ══════════════ WRITING ══════════════ -->
+    <section id="writing" aria-labelledby="label-writing">
+      <h2 id="label-writing">Writing</h2>
+
+      <a class="project" href="#" target="_blank" rel="noopener">
+        <div>
+          <p class="project-title">Report or Article Title</p>
+          <p class="project-desc">A brief description — the topic, audience, and where it was published or presented.</p>
+        </div>
+        <p class="project-meta">Report<br>2024</p>
+      </a>
+
+      <a class="project" href="#" target="_blank" rel="noopener">
+        <div>
+          <p class="project-title">Tutorial or Guide Title</p>
+          <p class="project-desc">Describe the tutorial. Mention the platform and who it's written for.</p>
+        </div>
+        <p class="project-meta">Tutorial<br>GIS</p>
+      </a>
+    </section>
+
+    <!-- ══════════════ DESIGN ══════════════ -->
+    <section id="design" aria-labelledby="label-design">
+      <h2 id="label-design">Design</h2>
+
+      <a class="project" href="#" target="_blank" rel="noopener">
+        <div>
+          <p class="project-title">Design Project Title</p>
+          <p class="project-desc">What this piece is — a visualization, poster, UI layout, or graphic. Mention tools and context.</p>
+        </div>
+        <p class="project-meta">Figma<br>Data Viz</p>
+      </a>
+
+      <a class="project" href="#" target="_blank" rel="noopener">
+        <div>
+          <p class="project-title">Another Design Project</p>
+          <p class="project-desc">Mention the medium, context, and what makes this piece representative of your work.</p>
+        </div>
+        <p class="project-meta">Print<br>Illustrator</p>
+      </a>
+    </section>
+
+  </main>
+
+  <!-- ══════════════ FOOTER ══════════════ -->
+  <!-- ✏️ Update name and links -->
+  <footer>
+    <span>Your Name</span>
+    <div class="footer-links">
+      <a href="https://axielsolutions.com">Website</a>
+      <a href="https://github.com/app-el" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/erik-lash" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </footer>
+
+</div>
+
+<!-- ── JavaScript ─────────────────────────────────────────────────────── -->
+<!-- defer: runs after HTML is parsed, does not block rendering           -->
+<script src="assets/js/main.js" defer></script>
+
+</body>
+</html>

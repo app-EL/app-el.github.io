@@ -1,0 +1,322 @@
+/*
+ * main.css
+ * All site styles. Imports design tokens from variables.css.
+ * ─────────────────────────────────────────────────────────
+ */
+
+@import url('variables.css');
+
+
+/* ═══════════════════════════════════════════
+   SELF-HOSTED FONT DECLARATIONS
+   ═══════════════════════════════════════════
+   Uncomment this block if you download Hanken Grotesk as WOFF2
+   and place the files in assets/fonts/.
+   Download from: https://fonts.google.com/specimen/Hanken+Grotesk
+   (click "Download family", then convert TTF→WOFF2 via https://cloudconvert.com)
+   ─────────────────────────────────────────── */
+
+/*
+@font-face {
+  font-family: 'Hanken Grotesk';
+  src: url('../fonts/HankenGrotesk-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Hanken Grotesk';
+  src: url('../fonts/HankenGrotesk-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Hanken Grotesk';
+  src: url('../fonts/HankenGrotesk-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+*/
+/* When using self-hosted fonts, also remove the Google Fonts <link> tag
+   from the <head> of index.html and 404.html. */
+
+
+/* ═══════════════════════════════════════════
+   RESET & BASE
+   ═══════════════════════════════════════════ */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--color-white);
+  color: var(--color-black);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img, svg {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+
+/* ═══════════════════════════════════════════
+   LAYOUT
+   ═══════════════════════════════════════════ */
+
+.wrap {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+
+/* ═══════════════════════════════════════════
+   HEADER
+   ═══════════════════════════════════════════ */
+
+header {
+  padding: var(--space-18) 0 var(--space-12);
+}
+
+.header-identity {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+}
+
+/* Avatar circle
+   ✏️ Replace .avatar with an <img> tag once you have your photo:
+      <img src="assets/images/profile/your-name.jpg"
+           alt="Your Name"
+           width="52" height="52"
+           style="border-radius:50%;object-fit:cover;flex-shrink:0;">
+*/
+.avatar {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: var(--color-rule);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--color-light);
+}
+
+h1 {
+  font-size: 1.05rem;
+  font-weight: var(--font-weight-medium);
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+
+.tagline {
+  font-size: 0.83rem;
+  color: var(--color-mid);
+  margin-top: 0.15rem;
+  font-weight: var(--font-weight-light);
+}
+
+.bio {
+  font-size: 0.875rem;
+  color: var(--color-mid);
+  line-height: 1.75;
+  max-width: 520px;
+  margin-bottom: var(--space-6);
+  font-weight: var(--font-weight-light);
+}
+
+.contact-links {
+  display: flex;
+  gap: var(--space-5);
+  flex-wrap: wrap;
+}
+
+.contact-links a {
+  font-size: 0.78rem;
+  color: var(--color-light);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+.contact-links a:hover {
+  color: var(--color-black);
+}
+
+
+/* ═══════════════════════════════════════════
+   NAVIGATION
+   ═══════════════════════════════════════════ */
+
+nav {
+  border-top: 1px solid var(--color-rule);
+  padding-top: 1.1rem;
+  display: flex;
+  gap: var(--space-7, 1.75rem);
+  flex-wrap: wrap;
+  margin-top: var(--space-10);
+}
+
+nav a {
+  font-size: 0.72rem;
+  font-weight: var(--font-weight-regular);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-light);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+nav a:hover,
+nav a.active {
+  color: var(--color-black);
+}
+
+
+/* ═══════════════════════════════════════════
+   PORTFOLIO SECTIONS
+   ═══════════════════════════════════════════ */
+
+section {
+  padding: var(--space-13) 0;
+  border-top: 1px solid var(--color-rule);
+}
+
+h2 {
+  font-size: 0.68rem;
+  font-weight: var(--font-weight-medium);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-light);
+  margin-bottom: var(--space-7, 1.75rem);
+}
+
+
+/* ═══════════════════════════════════════════
+   PROJECT ROWS
+   ═══════════════════════════════════════════ */
+
+.project {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: var(--space-6);
+  align-items: baseline;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--color-rule);
+  text-decoration: none;
+  color: inherit;
+}
+
+.project:first-of-type {
+  border-top: 1px solid var(--color-rule);
+}
+
+.project-title {
+  font-size: 0.9rem;
+  font-weight: var(--font-weight-medium);
+  margin-bottom: var(--space-1);
+  transition: color var(--transition);
+}
+
+.project:hover .project-title {
+  color: var(--color-mid);
+}
+
+.project-desc {
+  font-size: 0.8rem;
+  color: var(--color-mid);
+  font-weight: var(--font-weight-light);
+  line-height: 1.55;
+}
+
+.project-meta {
+  font-size: 0.72rem;
+  color: var(--color-light);
+  white-space: nowrap;
+  text-align: right;
+  font-weight: var(--font-weight-light);
+  line-height: 1.55;
+}
+
+
+/* ═══════════════════════════════════════════
+   FOOTER
+   ═══════════════════════════════════════════ */
+
+footer {
+  padding: var(--space-8) 0 var(--space-16);
+  border-top: 1px solid var(--color-rule);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+footer span {
+  font-size: 0.78rem;
+  color: var(--color-light);
+  font-weight: var(--font-weight-light);
+}
+
+.footer-links {
+  display: flex;
+  gap: var(--space-5);
+}
+
+.footer-links a {
+  font-size: 0.78rem;
+  color: var(--color-light);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+.footer-links a:hover {
+  color: var(--color-black);
+}
+
+
+/* ═══════════════════════════════════════════
+   RESPONSIVE
+   ═══════════════════════════════════════════ */
+
+@media (max-width: 480px) {
+  :root {
+    --gutter: 1.25rem;
+  }
+
+  .project {
+    grid-template-columns: 1fr;
+    gap: var(--space-1);
+  }
+
+  .project-meta {
+    text-align: left;
+  }
+}

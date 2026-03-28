@@ -1,64 +1,220 @@
-# Erik Lash MA, RPA, GISP
-Hello. I'm Erik, a GIS professional based in Hilo, Hawaii.
+# Portfolio — GitHub Pages
 
-## About Me
-Experienced in GIS, code/low-code platforms, and technology communities. Background in geographical, cultural, and ecological research projects and nexus regulatory frameworks.
+Minimalist portfolio site. No build tools. Edit and push.
 
-## Skills
-* IT and Geospatial program and project management, governance, and implementation.
-  
-* Full stack enterprise GIS architecture, administration, and cloud infrastructure.
-  * Nutanix Hybrid Cloud.
-  * VMWare.
-  * ESRI ArcGIS Enterprise Infrastructure as Code (IaC) and PowerShell Desired State Configuration (DSC) deployments.
-  * Database servers.
-  * Web servers and Web Application Firewalls.
-  * GIS network and web application performance analyses.
-* GIS application solution and code development.
-  * GIS web applications and code tools.
-  * GIS data model and database design.
-  * Terrestrial, Marine, and Water GIS.
-* Cultural and Natural Resources studies.
-  * Nexus enviornmental regulation frameworks including NEPA, CERCLA, CWA, CZM, ESA, Section 106, and Justice 40.
-  
-## Education							       		
-* M.A. | Anthropology, GIS | NCSU (_Aug 2013_)
-* B.A. | Anthropology, Geography | UO (_June 2003_)
+---
 
-## Certifications
-* GIS Professional Certification - **GISP # 161205**
-* Register of Professional Archaeologists - **RPA ID# 34640043**
+## Repository structure
 
-## Recent Professional Experience
-* **IT GIS Manager @ Hawaii County** (_Nov 2019 - Present_)
-  * Enterprise GIS architecture, infrastructure, administration, governance, and security. ArcGIS Pro. QGIS. ESRI ArcGIS Enterprise Portal, ArcGIS Server, SQL Server, PostGRES and Datastore instances. VMWare. Nutanix Hybrid Cloud. Web Mapping. GIS, GPS, and code tool applications. Python, SQL, 'R', JavaScript. Database schema and data models. Data Analytics. Tyler Enterprise Permitting and Licensing (EPL). User support. Project management. Program management.
-* **GIS Analyst @ Hawaii County** (_May 2018 - Nov 2019_)
-  * Web GIS and database applications. ArcGIS Enterprise support.
-* **GIS Specialist @ The Research Corporation of the University of Hawai'i** (_Sep 2017 - May 2018_)
-  * USAG-HI Schofield Barracks DPW Environmental/Cultural geospatial program support.
-* **Principal Investigator @ Southeastern Archaeological Research, Inc. (SEARCH)** (_Jan 2016 - Sep 2017_)
-  * Regional office management, business development, project management, GIS and cartography, field investigations, technical report writing.
-* **Senior Archaeologist @ Scientific Consulting Services (SCS)** (_Apr 2015 - Dec 2015_)
-  * Project management, GIS and cartography, field investigations, technical report writing.
-* **Staff Archaeologist @ Historic Preservation Office (HPO) in the Commonwealth of the Northern Mariana Islands (CNMI)** (_Sep 2014 - Mar 2015_)
-  * Implementation of Historic Preservation Fund Grant projects and programs. Section 106, NEPA, and local regulatory review and consultation. Compliance and documentation review. Preparation of scopes of work for archaeological survey, testing, and mitigation projects. Editing of articles in preparation for submission to professional journals.
-* **GIS Specialist/Planner @ Division of Coastal Resource Management (DCRM) in the Commonwealth of the Northern Mariana Islands (CNMI)** (_Aug 2013 - Sep 2014_)
-  * Implementation of Coastal Zone Management Act (CZM) projects and programs. NEPA, Section 106, and Federal Consistency review. Coastal and climate change research. Environmental and ecological sensitivity analyses including marine and terrestrial coastal habitat, coral reef, and fish health. Non-point source pollution analysis. GIS and marine spatial planning. Education, and outreach.
+```
+/                               ← Repo root (served as web root by GitHub Pages)
+│
+├── index.html                  Main portfolio page
+├── 404.html                    Custom "page not found" page
+├── favicon.svg                 Monogram favicon — edit initials inside
+├── favicon.ico                 ← Add this: .ico fallback for older browsers
+├── apple-touch-icon.png        ← Add this: 180×180 PNG for iOS home screen
+├── robots.txt                  Search engine crawl rules + sitemap pointer
+├── sitemap.xml                 URL index for search engines
+├── CNAME                       Custom domain — edit or delete if not using one
+├── .nojekyll                   Skips Jekyll processing (faster GitHub builds)
+├── README.md                   This file
+│
+└── assets/                     All static assets live here
+    ├── css/
+    │   ├── variables.css       Design tokens (colors, type, spacing, layout)
+    │   └── main.css            All styles — imports variables.css
+    │
+    ├── js/
+    │   └── main.js             Active nav highlight on scroll (minimal JS)
+    │
+    ├── fonts/
+    │   └── README.md           Instructions for self-hosting Hanken Grotesk
+    │                           (currently loaded via Google Fonts CDN)
+    │
+    ├── images/
+    │   ├── README.md           Image guidelines and best practices
+    │   ├── profile/            ← Add your headshot here
+    │   ├── projects/           ← Optional project thumbnails
+    │   └── og/                 ← Add og-image.jpg (1200×630) for social previews
+    │
+    └── docs/
+        └── README.md           For linked PDFs (resume, reports, etc.)
+```
 
-## Notable Active CI/CD Geospatial Projects
-* **Hawaii County Permit GIS**, code application an automation built in PowerShell, Python, and TSQL to perform weekly data conversion and GIS publication for Hawaii counties Citizen Self Service permit application portal, Back Office permit review portal, and mobile inspection application.
-  * Project operating in production continuously since 2019
-* **Optical Reef and Coastal Area Assessment of Hawaii [(ORCAHH)](https://github.com/app-EL/ORCAAH) Tool**,  fork of the NASA Optical Reef and Coastal Area Assessment (ORCAA) Google Earth Engine tool paramaterized for Hilo Bay Watershed clean water and health analyses.
-  * Project brought online during storm events since 2024
+---
 
-![Hilo Bay Turbidity Map](/assets/img/HiloBayTurbidityFNUMap.jpg)
-![Hilo Bay Turbidity Time Series](/assets/img/HiloBayTurbidityTimeSeries.jpg)
+## Quick-start checklist
 
-## Publications
-1. **(2003) A Short Step in a Long Distance Interaction Sphere: Quarry Activities in Western Tutuila, American Samoa**. Co-author with Ayres, William S.  ; Wozniak, Joan A. ; Winterhoff, E. Quent. Poster for presentation at the Society for American Archaeology annual meeting.
-2. **(2007) Intra-Island Source Variability on Tutuila, AS and Prehistoric Basalt Adze Exchange in Western Polynesia-Island Melanesia**. Co-author with Winterhoff, E. Quent ; Wozniak, Joan A. ; Ayres, William S. Article in the journal Archeology in Oceania.
-3. **(2012) Development of the Caribbean Online Radiocarbon Database for Archaeologists**. Co-author with Fitzpatrick, Scott. Poster for presentation at the Society for American Archaeology annual meeting.
-4. **(2018) The Archaeology of a WWII Battle Never Fought in the Northern Mariana Islands**. Co-Author with Boyd Dixon and Richard Shaefer. Article in the Journal of Conflict Archaeology.
+Run through these once before pushing:
 
-## Contact
-You can reach me at [LinkedIn](https://www.linkedin.com/in/erik-lash/) or [GitHub](https://github.com/app-EL)
+- [ ] Replace `Your Name` everywhere in `index.html`
+- [ ] Update tagline, bio, and contact links in `index.html`
+- [ ] Update `YN` initials in `favicon.svg`
+- [ ] Update all `yourusername` placeholders in Open Graph meta tags
+- [ ] Edit project rows (title, description, meta, `href`)
+- [ ] Add your photo to `assets/images/profile/` and update the avatar markup
+- [ ] Add `og-image.jpg` (1200×630) to `assets/images/og/`
+- [ ] Update `sitemap.xml` with your live URL and today's date
+- [ ] Update `robots.txt` sitemap URL
+- [ ] Edit or delete `CNAME` (only keep it if using a custom domain)
+- [ ] Footer name + links
+
+---
+
+## Customizing
+
+### Colors
+
+All colors are CSS custom properties in `assets/css/variables.css`:
+
+```css
+--color-black:  #0f0f0f;   /* primary text          */
+--color-mid:    #6b6b6b;   /* secondary text / bio  */
+--color-light:  #b0b0b0;   /* labels, meta, links   */
+--color-rule:   #e8e8e8;   /* divider lines         */
+--color-white:  #ffffff;   /* background            */
+```
+
+Change any value here — it updates everywhere.
+
+### Adding a project card
+
+Copy-paste one `.project` block in `index.html`:
+
+```html
+<a class="project" href="https://your-link.com" target="_blank" rel="noopener">
+  <div>
+    <p class="project-title">Project Title</p>
+    <p class="project-desc">One or two sentences.</p>
+  </div>
+  <p class="project-meta">Tool<br>Stack</p>
+</a>
+```
+
+### Adding a section
+
+1. Add a `<section id="new-section">` block in `index.html`
+2. Add a matching `<a href="#new-section">` in the `<nav>`
+
+### Linking your resume
+
+Uncomment this line in the contact links:
+```html
+<a href="assets/docs/your-name-resume.pdf" target="_blank">Resume</a>
+```
+Then add your PDF to `assets/docs/`.
+
+### Adding your photo
+
+Replace the `.avatar` div in `index.html` with:
+```html
+<img src="assets/images/profile/your-name.jpg"
+     alt="Your Name"
+     width="52" height="52"
+     style="border-radius:50%;object-fit:cover;flex-shrink:0;">
+```
+
+---
+
+## Fonts
+
+The site uses **Hanken Grotesk** loaded from Google Fonts (a CDN `<link>` tag).
+
+To self-host instead — for better privacy, caching control, and performance
+on sites with their own CDN — see `assets/fonts/README.md` for the full
+step-by-step. The `@font-face` declarations are already written in
+`assets/css/main.css`, just commented out.
+
+---
+
+## Deploy to GitHub Pages
+
+### Option A — Personal site (`yourusername.github.io`)
+
+URL: `https://yourusername.github.io`
+
+```bash
+git init
+git add .
+git commit -m "Initial portfolio"
+git branch -M main
+git remote add origin https://github.com/yourusername/yourusername.github.io.git
+git push -u origin main
+```
+
+Pages is **auto-enabled** for repos named `username.github.io`. Live in ~1 min.
+
+---
+
+### Option B — Project site (`yourusername.github.io/portfolio`)
+
+URL: `https://yourusername.github.io/portfolio`
+
+```bash
+git init
+git add .
+git commit -m "Initial portfolio"
+git branch -M main
+git remote add origin https://github.com/yourusername/portfolio.git
+git push -u origin main
+```
+
+Then: **GitHub repo → Settings → Pages → Source → main / (root) → Save**
+
+> **Note for Option B:** Update all Open Graph `og:url` and `og:image` values
+> in `index.html` to include the `/portfolio` path prefix.
+
+---
+
+### Option C — Custom domain
+
+1. Edit `CNAME` — replace placeholder with your actual domain
+2. Add DNS records at your registrar:
+
+| Type  | Name | Value                     |
+|-------|------|---------------------------|
+| A     | @    | 185.199.108.153           |
+| A     | @    | 185.199.109.153           |
+| A     | @    | 185.199.110.153           |
+| A     | @    | 185.199.111.153           |
+| CNAME | www  | yourusername.github.io    |
+
+3. GitHub: **Settings → Pages → Custom domain** → enter domain → Save
+4. Check **Enforce HTTPS** once DNS propagates (up to 48 h)
+
+If you are **not** using a custom domain, delete `CNAME` from the repo.
+
+---
+
+## Updating
+
+```bash
+git add .
+git commit -m "Update portfolio"
+git push
+```
+
+GitHub Pages rebuilds in under a minute.
+
+---
+
+## Performance & best practice notes
+
+These are the practices already baked into this repo's structure:
+
+| Practice | How it's implemented |
+|---|---|
+| Separate CSS from HTML | External `assets/css/main.css` |
+| Design tokens | All values in `assets/css/variables.css` |
+| Non-blocking JS | `<script defer>` — runs after HTML parse |
+| Font loading | `font-display: swap` via Google Fonts `&display=swap` |
+| Semantic HTML | `<header>`, `<main>`, `<nav aria-label>`, `<section aria-labelledby>`, `<footer>` |
+| External links | `rel="noopener"` on all `target="_blank"` links |
+| Image dimensions | Add `width` + `height` to `<img>` tags to prevent layout shift |
+| Lazy loading | Use `loading="lazy"` on project images (below the fold) |
+| Open Graph | `og:` and `twitter:` meta tags ready to fill in |
+| Favicon | SVG (modern) + `.ico` fallback + Apple touch icon |
+| SEO basics | `robots.txt` + `sitemap.xml` |
+| Self-host fonts | Scaffold in `assets/fonts/README.md` |
+| Asset organization | images / docs / fonts / css / js in named subfolders |

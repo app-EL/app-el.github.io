@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  sitemap.xml
+  ✏️ Replace every instance of "https://yourusername.github.io" with your live URL.
+  ✏️ Update <lastmod> dates when you make significant changes.
+  Submit to Google Search Console: https://search.google.com/search-console
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://yourusername.github.io/</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+</urlset>
